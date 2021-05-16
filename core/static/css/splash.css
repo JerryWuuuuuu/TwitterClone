@@ -1,0 +1,72 @@
+
+body {
+    background-color:#0f1419;
+    padding: 5vh;
+    height: 100%;
+    min-height: 100%
+}
+
+
+h1 {
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    font-size: 10vw
+}
+a {
+    color:white; 
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+.heart-unlike {
+    color:white;
+}
+
+.heart-unlike:hover{
+    color:red; 
+}
+
+.heart-like, .heart-like:hover {
+    color:red; 
+}
+    
+h2 {
+    color:white;
+    font-weight:bold;
+    text-align:center
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-primary {
+   background-color: #1da1f2;
+   font-weight: bold;
+   color: white;
+   width: 30vw
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited .btn-primary:focus {
+    background-color: #1a93e4
+}
+
+.btn-outline-primary {
+   background-color: #0f1419;
+   font-weight: bold;
+   color: #1da1f2;
+   border: 2px solid #1da1f2;
+   width: 30vw
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited .btn-outline-primary:focus {
+    background-color: #12181f;
+    color: #1da1f2;
+}
